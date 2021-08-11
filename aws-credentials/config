@@ -5,7 +5,7 @@ mfa_serial=arn:aws:iam::158297657311:mfa/username@spscommerce.com
 output=json
 region=us-east-1
 role_arn=arn:aws:iam::054015537794:role/admin/SYSENGRole
-source_profile=username1
+source_profile=default
 
 [profile spsc]
 cli_auto_prompt=on-partial
@@ -14,7 +14,7 @@ mfa_serial=arn:aws:iam::158297657311:mfa/username@spscommerce.com
 output=json
 region=us-east-1
 role_arn=arn:aws:iam::104966627370:role/admin/SYSENGRole
-source_profile=username
+source_profile=default
 
 [profile spscommerce]
 cli_auto_prompt=on-partial
@@ -23,7 +23,7 @@ mfa_serial=arn:aws:iam::158297657311:mfa/username@spscommerce.com
 output=json
 region=us-east-1
 role_arn=arn:aws:iam::056684691971:role/admin/SYSENGRole
-source_profile=username
+source_profile=default
 
 [profile spscomputenonprod]
 cli_auto_prompt=on-partial
@@ -32,7 +32,7 @@ mfa_serial=arn:aws:iam::158297657311:mfa/username@spscommerce.com
 output=json
 region=us-east-1
 role_arn=arn:aws:iam::022660963626:role/admin/SYSENGRole
-source_profile=username
+source_profile=default
 
 [profile spscomputeprod]
 cli_auto_prompt=on-partial
@@ -41,7 +41,7 @@ mfa_serial=arn:aws:iam::158297657311:mfa/username@spscommerce.com
 output=json
 region=us-east-1
 role_arn=arn:aws:iam::752785695266:role/admin/SYSENGRole
-source_profile=username
+source_profile=default
 
 [profile spscsenonprod]
 cli_auto_prompt=on-partial
@@ -50,7 +50,7 @@ mfa_serial=arn:aws:iam::158297657311:mfa/username@spscommerce.com
 output=json
 region=us-east-1
 role_arn=arn:aws:iam::726425380899:role/admin/SYSENGRole
-source_profile=username
+source_profile=default
 
 [profile spscseprod]
 cli_auto_prompt=on-partial
@@ -59,7 +59,7 @@ mfa_serial=arn:aws:iam::158297657311:mfa/username@spscommerce.com
 output=json
 region=us-east-1
 role_arn=arn:aws:iam::493794657987:role/admin/SYSENGRole
-source_profile=username
+source_profile=default
 
 [profile spsmgmt]
 cli_auto_prompt=on-partial
@@ -68,7 +68,7 @@ mfa_serial=arn:aws:iam::158297657311:mfa/username@spscommerce.com
 output=json
 region=us-east-1
 role_arn=arn:aws:iam::595883171258:role/admin/SYSENGRole
-source_profile=username
+source_profile=default
 
 [profile spsnetworknonprod]
 cli_auto_prompt=on-partial
@@ -77,7 +77,7 @@ mfa_serial=arn:aws:iam::158297657311:mfa/username@spscommerce.com
 output=json
 region=us-east-1
 role_arn=arn:aws:iam::923722167449:role/admin/SYSENGRole
-source_profile=username
+source_profile=default
 
 [profile spsnetworkprod]
 cli_auto_prompt=on-partial
@@ -86,7 +86,7 @@ mfa_serial=arn:aws:iam::158297657311:mfa/username@spscommerce.com
 output=json
 region=us-east-1
 role_arn=arn:aws:iam::094619684579:role/admin/SYSENGRole
-source_profile=username
+source_profile=default
 
 [profile spsportal]
 cli_auto_prompt=on-partial
@@ -95,7 +95,7 @@ mfa_serial=arn:aws:iam::158297657311:mfa/username@spscommerce.com
 output=json
 region=us-east-1
 role_arn=arn:aws:iam::158297657311:role/admin/SYSENGRole
-source_profile=username
+source_profile=default
 
 [profile spsroot]
 cli_auto_prompt=on-partial
@@ -104,7 +104,7 @@ mfa_serial=arn:aws:iam::158297657311:mfa/username@spscommerce.com
 output=json
 region=us-east-1
 role_arn=arn:aws:iam::880141098094:role/admin/SYSENGRole
-source_profile=username
+source_profile=default
 
 [profile spssharedservices]
 cli_auto_prompt=on-partial
@@ -113,7 +113,7 @@ mfa_serial=arn:aws:iam::158297657311:mfa/username@spscommerce.com
 output=json
 region=us-east-1
 role_arn=arn:aws:iam::322384046982:role/admin/SYSENGRole
-source_profile=username
+source_profile=default
 
 [profile spssharedservicesdev]
 cli_auto_prompt=on-partial
@@ -122,7 +122,7 @@ mfa_serial=arn:aws:iam::158297657311:mfa/username@spscommerce.com
 output=json
 region=us-east-1
 role_arn=arn:aws:iam::582881724802:role/admin/SYSENGRole
-source_profile=username
+source_profile=default
 
 [profile spsshire]
 cli_auto_prompt=on-partial
@@ -131,21 +131,21 @@ mfa_serial=arn:aws:iam::158297657311:mfa/username@spscommerce.com
 output=json
 region=us-east-1
 role_arn=arn:aws:iam::413345170962:role/admin/SYSENGRole
-source_profile=username
+source_profile=default
 
 [profile privateca]
 duration_seconds=28800
 mfa_serial=arn:aws:iam::158297657311:mfa/username@spscommerce.com
 region=us-east-1
 role_arn=arn:aws:iam::736253939431:role/admin/SYSENGRole
-source_profile=username
+source_profile=default
 
 [profile spssalesdemo]
 duration_seconds=28800
 mfa_serial=arn:aws:iam::158297657311:mfa/username@spscommerce.com
 region=us-east-1
 role_arn=arn:aws:iam::445144152630:role/admin/SYSENGRole
-source_profile=username
+source_profile=default
 
 [username]
 
